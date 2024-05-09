@@ -1,0 +1,29 @@
+*{
+font-family: "Poetsen One", sans-serif;;
+}
+    
+body{
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: lightblue;
+}
+.wrapper{
+    text-align: center;
+    border: 5px solid black;
+
+}
+
+.img-container img{
+    border: 5px solid white;
+    border-radius: 100px;
+    margin: 10px;
+    max-width:350px;
+    max-height:350px ;
+    transition: 1s ease;
+}
+
+.img-container img:hover{
+box-shadow: 2px 2px 20px black;
+}
